@@ -1,0 +1,20 @@
+{
+  "name": "expo-fetch-content-type-repro",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node --dns-result-order=ipv4first node_modules/expo/bin/cli start --localhost --port 8091",
+    "ios": "node --dns-result-order=ipv4first node_modules/expo/bin/cli start --ios --localhost --port 8091",
+    "android": "node --dns-result-order=ipv4first node_modules/expo/bin/cli start --android --localhost --port 8091",
+    "server": "node server.mjs"
+  },
+  "dependencies": {
+    "expo": "57.0.28",
+    "react": "19.2.3",
+    "react-native": "0.86.3"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "57.0.12"
+  }
+}

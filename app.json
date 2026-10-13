@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Fetch Header Repro",
+    "slug": "expo-fetch-content-type-repro",
+    "version": "1.0.0",
+    "ios": {
+      "bundleIdentifier": "dev.repro.expofetchheaders"
+    }
+  }
+}

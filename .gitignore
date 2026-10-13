@@ -1,0 +1,5 @@
+node_modules/
+.expo/
+artifacts/*.log
+artifacts/wire-results.json
+artifacts/android-57.0.24-session.json

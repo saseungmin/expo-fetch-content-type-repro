@@ -1,0 +1,117 @@
+{
+  "runtime": {
+    "platform": "android",
+    "osVersion": 36,
+    "rnVersion": {
+      "minor": 86,
+      "prerelease": null,
+      "patch": 2,
+      "major": 0
+    },
+    "expoVersion": "57.0.24",
+    "useRnFetch": "1",
+    "globalIsExpo": false
+  },
+  "requests": [
+    {
+      "time": "2026-10-13T08:53:09.708Z",
+      "method": "PUT",
+      "implementation": "expo/fetch",
+      "test": "blob-mismatched-type",
+      "expectedContentType": "application/octet-stream",
+      "receivedContentType": "text/plain",
+      "bodyBytes": 12,
+      "bodyText": "test payload"
+    },
+    {
+      "time": "2026-10-13T08:53:09.750Z",
+      "method": "PUT",
+      "implementation": "expo/fetch",
+      "test": "blob-empty-type",
+      "expectedContentType": "image/jpeg",
+      "receivedContentType": "",
+      "bodyBytes": 12,
+      "bodyText": "test payload"
+    },
+    {
+      "time": "2026-10-13T08:53:09.822Z",
+      "method": "PUT",
+      "implementation": "expo/fetch",
+      "test": "blob-matching-type",
+      "expectedContentType": "text/plain",
+      "receivedContentType": "text/plain",
+      "bodyBytes": 12,
+      "bodyText": "test payload"
+    },
+    {
+      "time": "2026-10-13T08:53:09.879Z",
+      "method": "PUT",
+      "implementation": "expo/fetch",
+      "test": "arraybuffer-control",
+      "expectedContentType": "image/jpeg",
+      "receivedContentType": "image/jpeg",
+      "bodyBytes": 12,
+      "bodyText": "test payload"
+    },
+    {
+      "time": "2026-10-13T08:53:10.028Z",
+      "method": "PUT",
+      "implementation": "expo/fetch",
+      "test": "response-blob-without-content-type",
+      "expectedContentType": "image/jpeg",
+      "receivedContentType": "",
+      "bodyBytes": 12,
+      "bodyText": "test payload"
+    },
+    {
+      "time": "2026-10-13T08:53:10.081Z",
+      "method": "PUT",
+      "implementation": "global-rn",
+      "test": "blob-mismatched-type",
+      "expectedContentType": "application/octet-stream",
+      "receivedContentType": "application/octet-stream",
+      "bodyBytes": 12,
+      "bodyText": "test payload"
+    },
+    {
+      "time": "2026-10-13T08:53:10.168Z",
+      "method": "PUT",
+      "implementation": "global-rn",
+      "test": "blob-empty-type",
+      "expectedContentType": "image/jpeg",
+      "receivedContentType": "image/jpeg",
+      "bodyBytes": 12,
+      "bodyText": "test payload"
+    },
+    {
+      "time": "2026-10-13T08:53:10.250Z",
+      "method": "PUT",
+      "implementation": "global-rn",
+      "test": "blob-matching-type",
+      "expectedContentType": "text/plain",
+      "receivedContentType": "text/plain",
+      "bodyBytes": 12,
+      "bodyText": "test payload"
+    },
+    {
+      "time": "2026-10-13T08:53:10.323Z",
+      "method": "PUT",
+      "implementation": "global-rn",
+      "test": "arraybuffer-control",
+      "expectedContentType": "image/jpeg",
+      "receivedContentType": "image/jpeg",
+      "bodyBytes": 12,
+      "bodyText": "test payload"
+    },
+    {
+      "time": "2026-10-13T08:53:10.380Z",
+      "method": "PUT",
+      "implementation": "global-rn",
+      "test": "response-blob-without-content-type",
+      "expectedContentType": "image/jpeg",
+      "receivedContentType": "image/jpeg",
+      "bodyBytes": 12,
+      "bodyText": "test payload"
+    }
+  ]
+}

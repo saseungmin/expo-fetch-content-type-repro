@@ -1,0 +1,40 @@
+[
+  {
+    "runtime": {
+      "platform": "android",
+      "osVersion": 36,
+      "rnVersion": {
+        "minor": 86,
+        "prerelease": null,
+        "patch": 2,
+        "major": 0
+      },
+      "expoVersion": "57.0.24",
+      "useRnFetch": "1",
+      "globalIsExpo": false
+    },
+    "requests": 10,
+    "expoHeaderMismatches": 3,
+    "rnHeaderMismatches": 0,
+    "allBodiesIntact": true
+  },
+  {
+    "runtime": {
+      "platform": "android",
+      "osVersion": 36,
+      "rnVersion": {
+        "minor": 86,
+        "prerelease": null,
+        "patch": 2,
+        "major": 0
+      },
+      "expoVersion": "57.0.28",
+      "useRnFetch": "1",
+      "globalIsExpo": false
+    },
+    "requests": 10,
+    "expoHeaderMismatches": 3,
+    "rnHeaderMismatches": 0,
+    "allBodiesIntact": true
+  }
+]
