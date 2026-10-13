@@ -6,6 +6,8 @@ company application code, or external echo service is used.
 
 Repository: https://github.com/saseungmin/expo-fetch-content-type-repro
 
+Upstream issue: https://github.com/expo/expo/issues/51449
+
 ```sh
 git clone https://github.com/saseungmin/expo-fetch-content-type-repro.git
 cd expo-fetch-content-type-repro
@@ -103,8 +105,6 @@ web, physical-device, or standalone-release-build reproduction.
 - `artifacts/verification.json`: assertions against the captured wire results.
 - `artifacts/environment.txt`: actual expo-env-info output, with user paths normalized.
 - `artifacts/doctor.txt`: actual Expo Doctor output for the final project.
-- `ISSUE_DRAFT.md`: template-ready GitHub issue text, including the public
-  reproduction repository URL.
 
 To compare against default global Expo Fetch, remove the flag or set it to `0`,
 restart Metro with `--clear`, and reload Expo Go. This optional variant was not
